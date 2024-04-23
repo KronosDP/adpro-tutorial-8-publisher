@@ -2,6 +2,12 @@ Notice that publisher program will send 5 data to the message broker. This is be
 
 Notice that `amqp://guest:guest@localhost:5672` exists on Subscriber and Publisher. The username and password, server name, and port is the same. This means that both are connecting to the same message broker.
 
-RabbitMQ Screenshot
-
 ![RabbitMQ Screenshot](RabbitMQ.png "RabbitMQ")
+
+![RabbitMQ Screenshot](RabbitMQ_Connection.png "RabbitMQ")
+
+![RabbitMQ Screenshot](TerminalSubscriber.png "RabbitMQ")
+
+![RabbitMQ Screenshot](TerminalPublisherpng.png "RabbitMQ")
+
+Here, we tried to send information using Publisher. Everytime we hit `cargo run` on publisher, the spike get up.
