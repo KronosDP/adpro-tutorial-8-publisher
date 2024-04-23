@@ -11,3 +11,7 @@ Notice that `amqp://guest:guest@localhost:5672` exists on Subscriber and Publish
 ![RabbitMQ Screenshot](TerminalPublisherpng.png "RabbitMQ")
 
 Here, we tried to send information using Publisher. Everytime we hit `cargo run` on publisher, the spike get up.
+
+![RabbitMQ Screenshot](RabbitMQ_Connection_2Spike.png "RabbitMQ")
+
+Monitoring chart based on publisher. On this screenshot, we tried to make 2 spikes. I tried to hit publisher lots of times on 2 periods. This is to mae those two spiker
